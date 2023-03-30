@@ -1,0 +1,157 @@
+/* aca se pueden crear variables css */
+:root {
+    --morado: #5f0483;
+}
+
+body a {
+    color: #484848;
+    text-decoration: none;
+}
+
+/* css del banner */
+.banner {
+    margin: 15px 0;
+    text-align: center;
+    padding: 0 10px;
+}
+
+.banner-logo1 {
+    margin-bottom: 15px;
+}
+
+.telefono {
+    text-align: center;
+    margin-top: 40px;
+    font-weight: bold;
+    color: #5f0483;
+    font-size: 17px;
+}
+
+.telefono a:hover {
+    color: #5f0483;
+    text-decoration: none;
+}
+
+.linea_atencion {
+    font-size: 18px;
+    color: #5f0483;
+}
+
+.img-tel {
+    max-width: 100%;
+    height: auto;
+}
+
+.carrito {
+    margin-top: 40px;
+    background-color: #5f0483;
+    padding: 5px 1px;
+    text-align: center;
+}
+/* fin css banner */
+
+/* css de la linea de texto sobre ahorro y compra */
+.linea {
+    text-align: center;
+    font-size: 17px;
+    font-weight: bold;
+    color: #5f0483;
+}
+/* fin css linea de texto */
+
+/* css del slider */
+.slider {
+    margin-top: 40px;
+}
+ /* fin css slider */
+
+
+/* css de los productos destacados */
+.prod-destacados {
+    margin: 15px 0;
+}
+
+.prodestacados {
+    margin: 0;
+}
+
+.t-prodestacados {
+    background-color: #5f0483;
+    color: #ffffff;
+    padding: 10px;
+    font-weight: lighter;
+    text-align: center;
+}
+
+.espacio-card {
+    text-align: center;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+.card-img-prod {
+    padding: 10px;
+    width: 100%;
+}
+
+/* css de los botones */
+
+/* css boton general */
+.Btn {
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: .25rem;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out
+}
+
+/* css boton login */
+.btn-outline {
+    background-color: #5f0483;
+    color: #fff;
+    border-color: #5f0483;
+    font-weight: bold;
+}
+
+
+/* css boton cotiza en linea */
+.btn-second {
+    margin-bottom: 5px;
+    background-color: #004a25;
+    border-color: #004a25;
+    color: #fff;
+    font-weight: bold;
+}
+
+.btn-second:hover {
+    margin-bottom: 5px;
+    background-color: var(--morado);
+    border-color: var(--morado);
+    color: #ffffff;
+}
+/* fin css de los botones */
+
+/* fin css productos destacados  */
+
+.close{
+	background: #781fc5;
+	border: none;
+	padding: 7px;
+	color: white;
+
+	font-size: 16px;
+	font-weight:bold;
+	border-radius: 4px;
+    margin-left: 600px;
+}
